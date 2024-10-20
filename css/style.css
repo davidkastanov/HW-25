@@ -1,0 +1,28 @@
+.boxes {
+    position: relative;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.box:first-child {
+    background-color: rgb(190, 78, 78);
+    left: 0;
+    top: 0;
+}
+
+.box:nth-child(2) {
+    background-color: rgb(91, 91, 233);
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+
+.box:last-child {
+    background-color: rgb(63, 153, 63);
+    left: 300px;
+    top: 300px;
+}
